@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color:#ff9a4b
+}
+
+main{
+    width: 960px;
+    padding: 50px 0;
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.main-box{
+    width: 300px;
+    padding: 10px;
+    background-color: #eee;
+    position: relative;
+    
+}
+.midasi{
+    background-color: #ff9a4b;
+    color:#fff;
+    position: absolute;
+    top: 0;
+    left:0;
+    
+}
+.main-box:nth-child(2){
+    margin: 0 30px;
+}
+
+.img1{
+    height: 150px;
+    background-image:url(img/flow01.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.img2{
+    height: 150px;
+    background-image:url(img/flow02.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.img3{
+    height: 150px;
+    background-image:url(img/flow03.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.box-title{
+    padding-top:15px;
+    padding-bottom: 5px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #aaa;
+}
