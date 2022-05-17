@@ -37,13 +37,13 @@ main{
 }
 .img2{
     height: 150px;
-    background-image: url(img/flow02.png);
+    background-image: url(https://github.com/sakaue-yoshiki/html-css/blob/main/flow02.png?raw=true);
     background-position: bottom;
     background-size: cover;
 }
 .img3{
     height: 150px;
-    background-image: url(img/flow03.png);
+    background-image: url(https://github.com/sakaue-yoshiki/html-css/blob/main/flow03.png?raw=true);
     background-position: bottom;
     background-size: cover;
 }
